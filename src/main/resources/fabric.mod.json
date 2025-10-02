@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "fystu_man",
+	"version": "${version}",
+	"name": "Man | 牢大",
+	"description": "这是一个关于牢大的模组0.o",
+	"authors": [
+		"Feiyang Studios"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/fystu_man/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.fystu_man.Man"
+		],
+		"client": [
+			"com.fystu_man.ManClient"
+		]
+	},
+	"mixins": [
+		"fystu_man.mixins.json",
+		{
+			"config": "fystu_man.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

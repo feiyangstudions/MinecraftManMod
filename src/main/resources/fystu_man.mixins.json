@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.fystu_man.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ManMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

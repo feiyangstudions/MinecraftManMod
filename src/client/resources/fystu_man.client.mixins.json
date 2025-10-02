@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.fystu_man.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ManClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
