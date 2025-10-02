@@ -1,5 +1,6 @@
 package com.fystu_man;
 
+import com.fystu_man.item.ManModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -19,6 +20,7 @@ public class Man implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+		ManModItems.registerModItems();
+		LOGGER.info("Minecraft Man Mod Load Done!");
 	}
 }

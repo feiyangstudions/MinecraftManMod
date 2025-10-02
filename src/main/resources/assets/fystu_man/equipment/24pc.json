@@ -1,0 +1,14 @@
+{
+    "layers":{
+        "humanoid":[
+            {
+                "texture":"icetea:24pc"
+            }
+        ],
+        "humanoid_leggings":[
+            {
+                "texture":"icetea:24pc"
+            }
+        ]
+    }
+}

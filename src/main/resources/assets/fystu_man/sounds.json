@@ -1,0 +1,11 @@
+{
+    "disc.see_you_again":
+    {
+        "sounds":[
+            {
+                "name":"fystu_man:manssong",
+                "stream":true
+            }
+        ]
+    }
+}
