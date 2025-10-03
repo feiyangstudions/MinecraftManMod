@@ -2,12 +2,12 @@
     "layers":{
         "humanoid":[
             {
-                "texture":"icetea:24pc"
+                "texture":"fystu_man:24bs"
             }
         ],
         "humanoid_leggings":[
             {
-                "texture":"icetea:24pc"
+                "texture":"fystu_man:24bs"
             }
         ]
     }

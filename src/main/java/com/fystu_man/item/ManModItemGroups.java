@@ -29,6 +29,7 @@ public class ManModItemGroups {
                             entries.add(ManModItems.ICE_TEA);
                             entries.add(ManModItems._24BS);
                             entries.add(ManModItems.SEE_YOU_AGAIN);
+                            entries.add(ManModItems.AWAKENED_ICE_TEA);
                         })
                         .build()
         );

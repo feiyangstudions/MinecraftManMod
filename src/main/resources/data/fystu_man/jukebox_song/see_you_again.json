@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "jukebox_song.fystu_man.see_you_again"
+  },
+  "length_in_seconds": 230.0,
+  "sound_event": "fystu_man:music_disc.see_you_again"
+}

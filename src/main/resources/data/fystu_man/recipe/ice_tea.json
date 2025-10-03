@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:ice"
+    },
+    "@": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "pattern": [
+    "###",
+    "#@#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "fystu_man:ice_tea"
+  }
+}

@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "fystu_man",
-	"version": "${version}",
+	"version": "0.0.1",
 	"name": "Man | 牢大",
 	"description": "这是一个关于牢大的模组0.o",
 	"authors": [
@@ -19,6 +19,9 @@
 		],
 		"client": [
 			"com.fystu_man.ManClient"
+		],
+		"fabric-datagen": [
+			"com.fystu_man.ManModDataGenerator"
 		]
 	},
 	"mixins": [

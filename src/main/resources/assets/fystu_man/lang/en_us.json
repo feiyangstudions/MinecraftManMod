@@ -2,5 +2,21 @@
   "item.fystu_man.ice_tea": "Ice Tea",
   "item.fystu_man.24bs": "No.24 Ball Suit",
   "item.fystu_man.see_you_again": "See You Again",
-  "itemGroup.man": "Man! Items"
+  "item.fystu_man.awakened_ice_tea": "Awakened Ice! Tea!",
+  "itemGroup.man": "Man! Items",
+  "jukebox_song.fystu_man.see_you_again": "See You Again - Wiz Khalifa/Charlie Puth",
+
+  "tooltip.fystu_man.awakened_ice_tea.line1": "§9=======================",
+  "tooltip.fystu_man.awakened_ice_tea.line2": "§6§l✦ Awakened Tea ✦",
+  "tooltip.fystu_man.awakened_ice_tea.line3": "§9=======================",
+  "tooltip.fystu_man.awakened_ice_tea.line4": "§1♦ High Damage",
+  "tooltip.fystu_man.awakened_ice_tea.line5": "§1♦ Special Effect",
+  "tooltip.fystu_man.awakened_ice_tea.line6": "§9=======================",
+
+  "tooltip.fystu_man.24bs.line1": "§9=======================",
+  "tooltip.fystu_man.24bs.line2": "§9§6§l⛹ Jersey #24 ⛹",
+  "tooltip.fystu_man.24bs.line3": "§9=======================",
+  "tooltip.fystu_man.24bs.line4": "§1🏀 Super Defense",
+  "tooltip.fystu_man.24bs.line5": "§1🏀 Special Effect",
+  "tooltip.fystu_man.24bs.line6": "§9======================="
 }

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "1": {
+      "item": "fystu_man:24bs"
+    },
+    "2": {
+      "item": "fystu_man:ice_tea"
+    },
+    "3": {
+      "item": "fystu_man:see_you_again"
+    }
+  },
+  "pattern": [
+    "###",
+    "123",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "fystu_man:awakened_ice_tea"
+  }
+}
