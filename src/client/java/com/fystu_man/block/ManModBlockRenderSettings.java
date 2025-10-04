@@ -1,19 +1,17 @@
 package com.fystu_man.block;
 
 import com.fystu_man.Man;
+import com.fystu_man.ManClient;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.block.Block;
-import net.minecraft.block.BlockRenderType;
 import net.minecraft.client.render.RenderLayer;
-
-import java.util.Map;
 
 public class ManModBlockRenderSettings {
 
-    public static void init() {
-        Man.LOGGER.info("Setting ManModBlock Render...");
+    public static void initialize() {
+        ManClient.LOGGER.info("Setting ManModBlock Render...");
         set();
-        Man.LOGGER.info("ManModBlock Render Setting Done!");
+        ManClient.LOGGER.info("ManModBlock Render Setting Done!");
     }
 
     private static void set() {
