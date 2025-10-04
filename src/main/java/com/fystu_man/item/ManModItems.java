@@ -14,21 +14,31 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 
 public class ManModItems {
-    public static final Item TEA_LEAVES = register("tea_leaves", new Item(createIS(0, null)));
+    // Items
+
+    // Tea Leaves Item (Can Eat)
+    public static final Item TEA_LEAVES = register("tea_leaves", new Item(
+            createIS(0, null)
+                    .food(ManModFoodComponents.TEA_LEAVES_B.build())
+    ));
+
+    // Teacup Item
     public static final Item TEACUP = register("teacup", new Item(createIS(16, null)));
 
-    private static Item register(String id, Item item) {
-        return Registry.register(Registries.ITEM, Identifier.of(Man.MOD_ID, id), item);
-    }
+    // Ice Tea Item (Can Drink)
     public static final Item ICE_TEA = register("ice_tea", new DrinkableItem(
             createIS(1, null)
                     .food(ManModFoodComponents.ICE_TEA_B.usingConvertsTo(TEACUP).build())
     ));
+
+    // Ball suit No.24 Item
     public static final Item _24BS = register("24bs", new _24BSItem(
             ManModArmorMaterials._24BS,
             ArmorItem.Type.CHESTPLATE,
             createIS(1, null)
                     .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true).withShowInTooltip(false))));
+
+    // See You Again Item (Jukebox Playable)
     public static final Item SEE_YOU_AGAIN = register("see_you_again", new Item(createIS(16, null)
             .rarity(Rarity.RARE).jukeboxPlayable(ManModJukeboxSongs.SEE_YOU_AGAIN_J)));
     public static final Item AWAKENED_ICE_TEA = register("awakened_ice_tea", new AwakenedIceTeaItem(
@@ -42,6 +52,24 @@ public class ManModItems {
                     .food(ManModFoodComponents.TEA_B.usingConvertsTo(TEACUP).build())
                     .recipeRemainder(TEACUP)
     ));
+
+    // Netherite Star Tea Item (Can Drink)
+    public static final Item NETHERITE_STAR_TEA = register("netherite_star_tea", new NetheriteStarTeaItem(
+            createIS(1, Rarity.EPIC)
+                    .food(ManModFoodComponents.NETHERITE_STAR_TEA_B.usingConvertsTo(TEACUP).build())
+                    .recipeRemainder(TEACUP)
+    ));
+
+    // Netherite Star Ice Tea Item (Can Drink)
+    public static final Item NETHERITE_STAR_ICE_TEA = register("netherite_star_ice_tea", new NetheriteStarIceTeaItem(
+            createIS(1, Rarity.EPIC)
+                    .food(ManModFoodComponents.NETHERITE_STAR_ICE_TEA_B.usingConvertsTo(TEACUP).build())
+    ));
+
+    // Items Register Methods
+    private static Item register(String id, Item item) {
+        return Registry.register(Registries.ITEM, Identifier.of(Man.MOD_ID, id), item);
+    }
 
     private static Item.Settings createIS(int maxCount, Rarity rarity)
     {

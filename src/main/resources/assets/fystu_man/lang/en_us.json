@@ -2,25 +2,31 @@
   "item.fystu_man.ice_tea": "Ice Tea",
   "item.fystu_man.24bs": "No.24 Ball Suit",
   "item.fystu_man.see_you_again": "See You Again",
-  "item.fystu_man.awakened_ice_tea": "Awakened Ice! Tea!",
+  "item.fystu_man.awakened_ice_tea": "§9Awakened §6ICE§r! §5TEA§r!",
   "item.fystu_man.tea": "Black Tea",
   "item.fystu_man.teacup": "Empty Teacup",
   "item.fystu_man.tea_leaves": "Tea Leaves",
+  "item.fystu_man.netherite_star_tea": "§5Netherite §6Star §3Tea",
+  "item.fystu_man.netherite_star_ice_tea": "§3Netherite §aStar §6Ice! §4Tea!",
   "itemGroup.man": "Man! Items",
   "block.fystu_man.tea_tree": "Tea Tree",
   "jukebox_song.fystu_man.see_you_again": "See You Again - Wiz Khalifa/Charlie Puth",
 
-  "tooltip.fystu_man.awakened_ice_tea.line1": "§9=======================",
-  "tooltip.fystu_man.awakened_ice_tea.line2": "§6§l✦ Awakened Tea ✦",
-  "tooltip.fystu_man.awakened_ice_tea.line3": "§9=======================",
-  "tooltip.fystu_man.awakened_ice_tea.line4": "§1♦ High Damage",
-  "tooltip.fystu_man.awakened_ice_tea.line5": "§1♦ Special Effect",
-  "tooltip.fystu_man.awakened_ice_tea.line6": "§9=======================",
+  "tooltip.fystu_man.__ALL__.delimiter": "§9=======================",
 
-  "tooltip.fystu_man.24bs.line1": "§9=======================",
-  "tooltip.fystu_man.24bs.line2": "§9§6§l⛹ Jersey #24 ⛹",
-  "tooltip.fystu_man.24bs.line3": "§9=======================",
-  "tooltip.fystu_man.24bs.line4": "§1🏀 Super Defense",
-  "tooltip.fystu_man.24bs.line5": "§1🏀 Special Effect",
-  "tooltip.fystu_man.24bs.line6": "§9======================="
+  "tooltip.fystu_man.awakened_ice_tea.line1": "§6§l✦ Awakened Ice Tea ✦",
+  "tooltip.fystu_man.awakened_ice_tea.line2": "§1♦ High Damage",
+  "tooltip.fystu_man.awakened_ice_tea.line3": "§1♦ Special Effect",
+
+  "tooltip.fystu_man.24bs.line1": "§9§6§l⛹ Ball Suit #24 ⛹",
+  "tooltip.fystu_man.24bs.line2": "§1🏀 Super Defense",
+  "tooltip.fystu_man.24bs.line3": "§1🏀 Special Effect",
+
+  "tooltip.fystu_man.netherite_star_tea.line1": "§6§l✦ Netherite Star Tea ✦",
+  "tooltip.fystu_man.netherite_star_tea.line2": "§1 Many Effects",
+  "tooltip.fystu_man.netherite_star_tea.line3": "§1 Make You Full!",
+
+  "tooltip.fystu_man.netherite_star_ice_tea.line1": "§6§l✦ Netherite Star Ice Tea ✦",
+  "tooltip.fystu_man.netherite_star_ice_tea.line2": "§1♦ More Effects then \"Netherite Star Tea\"!",
+  "tooltip.fystu_man.netherite_star_ice_tea.line3": "§1♦ No More Hungry!!!"
 }

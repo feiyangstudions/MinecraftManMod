@@ -5,6 +5,7 @@ import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 
 public class ManModFoodComponents {
+    public static final FoodComponent.Builder TEA_LEAVES_B = registry(1, 0.1F, false);
     public static final FoodComponent.Builder TEA_B = registry(3, 1.0F, true, new StatusEffectInstance[] {
             new StatusEffectInstance(StatusEffects.SPEED, 2400, 2)
     }, new float[] {1.0F});
@@ -13,6 +14,23 @@ public class ManModFoodComponents {
             new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 2400, 0),
             new StatusEffectInstance(StatusEffects.HASTE, 2400, 3)
     }, new float[] {1.0F, 1.0F, 0.9F});
+    public static final FoodComponent.Builder NETHERITE_STAR_TEA_B = registry(10, 2.0F, true, new StatusEffectInstance[] {
+            new StatusEffectInstance(StatusEffects.SPEED, 2400, 2),
+            new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 2400, 0),
+            new StatusEffectInstance(StatusEffects.HASTE, 2400, 3),
+            new StatusEffectInstance(StatusEffects.RESISTANCE, 600, 1),
+            new StatusEffectInstance(StatusEffects.NIGHT_VISION, 6000, 0),
+            new StatusEffectInstance(StatusEffects.ABSORPTION, 4800, 4)
+    }, new float[] {1.0F, 1.0F, 1.0F, 0.8F, 1.0F, 0.9F});
+    public static final FoodComponent.Builder NETHERITE_STAR_ICE_TEA_B = registry(10, 2.0F, true, new StatusEffectInstance[] {
+            new StatusEffectInstance(StatusEffects.SPEED, 4800, 2),
+            new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 2400, 0),
+            new StatusEffectInstance(StatusEffects.HASTE, 4800, 3),
+            new StatusEffectInstance(StatusEffects.RESISTANCE, 1200, 1),
+            new StatusEffectInstance(StatusEffects.NIGHT_VISION, 12000, 0),
+            new StatusEffectInstance(StatusEffects.ABSORPTION, 9600, 4),
+            new StatusEffectInstance(StatusEffects.STRENGTH, 4800, 11),
+    }, new float[] {1.0F, 1.0F, 1.0F, 1.0F, 1.0F, 1.0F, 1.0F});
 
     private static FoodComponent.Builder registry(int nutrition, float saturation, boolean alwaysEdible)
     {

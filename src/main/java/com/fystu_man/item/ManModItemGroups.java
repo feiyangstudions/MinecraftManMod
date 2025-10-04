@@ -35,6 +35,8 @@ public class ManModItemGroups {
                             entries.add(ManModItems._24BS);
                             entries.add(ManModItems.SEE_YOU_AGAIN);
                             entries.add(ManModBlocks.TEA_TREE);
+                            entries.add(ManModItems.NETHERITE_STAR_TEA);
+                            entries.add(ManModItems.NETHERITE_STAR_ICE_TEA);
                         })
                         .build()
         );

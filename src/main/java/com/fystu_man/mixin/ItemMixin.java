@@ -1,5 +1,6 @@
 package com.fystu_man.mixin;
 
+import com.fystu_man.item.ManModItems;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import org.spongepowered.asm.mixin.Mixin;
@@ -15,7 +16,8 @@ public class ItemMixin {
 
     @Unique
     private static final Set<Item> GLINT_ITEMS = Set.of(
-            com.fystu_man.item.ManModItems.AWAKENED_ICE_TEA
+            ManModItems.AWAKENED_ICE_TEA,
+            ManModItems.NETHERITE_STAR_ICE_TEA
     );
 
     @Inject(method = "hasGlint", at = @At("HEAD"), cancellable = true)

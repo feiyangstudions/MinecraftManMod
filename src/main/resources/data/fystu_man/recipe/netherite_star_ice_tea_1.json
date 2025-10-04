@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "@": {
+      "item": "fystu_man:teacup"
+    },
+    "T": {
+      "item": "fystu_man:netherite_star_tea"
+    },
+    "0": {
+      "item": "fystu_man:tea_leaves"
+    },
+    "1": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "pattern": [
+    "###",
+    "@@@",
+    "1T0"
+  ],
+  "result": {
+    "count": 3,
+    "id": "fystu_man:netherite_star_ice_tea"
+  }
+}
