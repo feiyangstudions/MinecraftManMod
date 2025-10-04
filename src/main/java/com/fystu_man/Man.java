@@ -29,6 +29,6 @@ public class Man implements ModInitializer {
 		ManModItemGroups.registerModItems();
 		ManModBlocks.registerModBlocks();
 
-		LOGGER.info("Minecraft Man Mod Load Done!");
+		LOGGER.info("Minecraft Man Mod Server Load Done!");
 	}
 }

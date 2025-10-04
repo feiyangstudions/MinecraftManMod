@@ -2,7 +2,6 @@ package com.fystu_man.block;
 
 import com.fystu_man.Man;
 import com.fystu_man.block.custom.TeaTreeBlock;
-import com.mojang.serialization.MapCodec;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.MapColor;
@@ -15,7 +14,7 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ManModBlocks {
-    public static final Block TEA_TREE = registry(
+    public static final Block TEA_TREE = register(
             "tea_tree",
             new TeaTreeBlock(
                     StatusEffects.SPEED,
@@ -35,7 +34,7 @@ public class ManModBlocks {
         }
     }
 
-    private static Block registry(String id, Block block) {
+    private static Block register(String id, Block block) {
         registerBlockItem(id, block);
         return Registry.register(Registries.BLOCK, Identifier.of(Man.MOD_ID, id), block);
     }
