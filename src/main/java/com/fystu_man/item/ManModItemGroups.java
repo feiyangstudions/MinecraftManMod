@@ -1,6 +1,7 @@
 package com.fystu_man.item;
 
 import com.fystu_man.Man;
+import com.fystu_man.block.ManModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -26,10 +27,14 @@ public class ManModItemGroups {
                         .displayName(Text.translatable("itemGroup.man"))
                         .icon(() -> new ItemStack(ManModItems.ICE_TEA))
                         .entries((displayContext, entries) -> {
+                            entries.add(ManModItems.TEA_LEAVES);
+                            entries.add(ManModItems.TEA);
+                            entries.add(ManModItems.TEACUP);
                             entries.add(ManModItems.ICE_TEA);
+                            entries.add(ManModItems.AWAKENED_ICE_TEA);
                             entries.add(ManModItems._24BS);
                             entries.add(ManModItems.SEE_YOU_AGAIN);
-                            entries.add(ManModItems.AWAKENED_ICE_TEA);
+                            entries.add(ManModBlocks.TEA_TREE);
                         })
                         .build()
         );

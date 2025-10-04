@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "has_leave=true": {
+      "model": "fystu_man:block/tea_tree"
+    },
+    "has_leave=false": {
+      "model": "fystu_man:block/non_leave_tea_tree"
+    }
+  }
+}

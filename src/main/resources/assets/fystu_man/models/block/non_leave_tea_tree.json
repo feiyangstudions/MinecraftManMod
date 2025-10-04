@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "fystu_man:block/non_leave_tea_tree"
+  }
+}

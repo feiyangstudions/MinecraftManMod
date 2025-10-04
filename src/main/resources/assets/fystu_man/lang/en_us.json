@@ -3,7 +3,11 @@
   "item.fystu_man.24bs": "No.24 Ball Suit",
   "item.fystu_man.see_you_again": "See You Again",
   "item.fystu_man.awakened_ice_tea": "Awakened Ice! Tea!",
+  "item.fystu_man.tea": "Black Tea",
+  "item.fystu_man.teacup": "Empty Teacup",
+  "item.fystu_man.tea_leaves": "Tea Leaves",
   "itemGroup.man": "Man! Items",
+  "block.fystu_man.tea_tree": "Tea Tree",
   "jukebox_song.fystu_man.see_you_again": "See You Again - Wiz Khalifa/Charlie Puth",
 
   "tooltip.fystu_man.awakened_ice_tea.line1": "§9=======================",

@@ -6,13 +6,16 @@
       "item": "minecraft:ice"
     },
     "@": {
-      "item": "minecraft:water_bucket"
+      "item": "minecraft:sugar"
+    },
+    "T": {
+      "item": "fystu_man:tea"
     }
   },
   "pattern": [
     "###",
-    "#@#",
-    "###"
+    "@@@",
+    "#T#"
   ],
   "result": {
     "count": 1,

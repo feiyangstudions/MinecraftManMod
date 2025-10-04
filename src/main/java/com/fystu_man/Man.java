@@ -1,5 +1,7 @@
 package com.fystu_man;
 
+import com.fystu_man.block.ManModBlocks;
+import com.fystu_man.item.ManModItemGroups;
 import com.fystu_man.item.ManModItems;
 import com.fystu_man.sound.ManModSoundEvents;
 import net.fabricmc.api.ModInitializer;
@@ -23,8 +25,10 @@ public class Man implements ModInitializer {
 		// Proceed with mild caution.
 
 		ManModSoundEvents.initialize();
-
 		ManModItems.registerModItems();
+		ManModItemGroups.registerModItems();
+		ManModBlocks.registerModBlocks();
+
 		LOGGER.info("Minecraft Man Mod Load Done!");
 	}
 }

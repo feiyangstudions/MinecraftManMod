@@ -14,7 +14,16 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 
 public class ManModItems {
-    public static final Item ICE_TEA = register("ice_tea", new Item(createIS(1, null)));
+    public static final Item TEA_LEAVES = register("tea_leaves", new Item(createIS(0, null)));
+    public static final Item TEACUP = register("teacup", new Item(createIS(16, null)));
+
+    private static Item register(String id, Item item) {
+        return Registry.register(Registries.ITEM, Identifier.of(Man.MOD_ID, id), item);
+    }
+    public static final Item ICE_TEA = register("ice_tea", new DrinkableItem(
+            createIS(1, null)
+                    .food(ManModFoodComponents.ICE_TEA_B.usingConvertsTo(TEACUP).build())
+    ));
     public static final Item _24BS = register("24bs", new _24BSItem(
             ManModArmorMaterials._24BS,
             ArmorItem.Type.CHESTPLATE,
@@ -28,10 +37,11 @@ public class ManModItems {
                     .attributeModifiers(SwordItem.createAttributeModifiers(
                             ManModToolMaterials.ICE_TEA, 0, -1F))
                     .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true).withShowInTooltip(false))));
-
-    private static Item register(String id, Item item) {
-        return Registry.register(Registries.ITEM, Identifier.of(Man.MOD_ID, id), item);
-    }
+    public static final Item TEA = register("tea", new DrinkableItem(
+            createIS(1, null)
+                    .food(ManModFoodComponents.TEA_B.usingConvertsTo(TEACUP).build())
+                    .recipeRemainder(TEACUP)
+    ));
 
     private static Item.Settings createIS(int maxCount, Rarity rarity)
     {

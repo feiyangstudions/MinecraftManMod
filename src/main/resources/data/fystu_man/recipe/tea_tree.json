@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "tag": "minecraft:leaves"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "D": {
+      "item": "minecraft:dirt"
+    },
+    "E": {
+      "tag": "minecraft:villager_plantable_seeds"
+    }
+  },
+  "pattern": [
+    "###",
+    "#S#",
+    "EDE"
+  ],
+  "result": {
+    "count": 6,
+    "id": "fystu_man:tea_tree"
+  }
+}

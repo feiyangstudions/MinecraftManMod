@@ -3,7 +3,11 @@
   "item.fystu_man.24bs": "24号球服",
   "item.fystu_man.see_you_again": "See You Again",
   "item.fystu_man.awakened_ice_tea": "觉醒 冰！红！茶！",
+  "item.fystu_man.tea": "红茶",
+  "item.fystu_man.teacup": "空茶杯",
+  "item.fystu_man.tea_leaves": "茶叶",
   "itemGroup.man": "牢大！物品",
+  "block.fystu_man.tea_tree": "茶树",
   "jukebox_song.fystu_man.see_you_again": "See You Again - Wiz Khalifa/Charlie Puth",
 
   "tooltip.fystu_man.awakened_ice_tea.line1": "§9=======================",

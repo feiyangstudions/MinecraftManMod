@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "fystu_man:item/tea_tree_sapling"
+  }
+}
