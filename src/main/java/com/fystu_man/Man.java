@@ -1,6 +1,7 @@
 package com.fystu_man;
 
 import com.fystu_man.block.ManModBlocks;
+import com.fystu_man.effect.ManModStatusEffects;
 import com.fystu_man.item.ManModItemGroups;
 import com.fystu_man.item.ManModItems;
 import com.fystu_man.sound.ManModSoundEvents;
@@ -25,6 +26,7 @@ public class Man implements ModInitializer {
 		// Proceed with mild caution.
 
 		ManModSoundEvents.initialize();
+		ManModStatusEffects.initialize();
 		ManModItems.registerModItems();
 		ManModItemGroups.registerModItems();
 		ManModBlocks.registerModBlocks();

@@ -6,9 +6,9 @@ import net.minecraft.text.Text;
 
 import java.util.List;
 
-public class NetheriteStarIceTeaItem extends DrinkableItem {
+public class NetherStarTeaItem extends DrinkableItem {
 
-    public NetheriteStarIceTeaItem(Settings settings) {
+    public NetherStarTeaItem(Settings settings) {
         super(settings);
     }
 
@@ -16,10 +16,10 @@ public class NetheriteStarIceTeaItem extends DrinkableItem {
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
         this.tooltip = tooltip;
         addDelimiter();
-        add("tooltip.fystu_man.netherite_star_ice_tea.line1");
+        add("tooltip.fystu_man.netherite_star_tea.line1");
         addDelimiter();
-        add("tooltip.fystu_man.netherite_star_ice_tea.line2");
-        add("tooltip.fystu_man.netherite_star_ice_tea.line3");
+        add("tooltip.fystu_man.netherite_star_tea.line2");
+        add("tooltip.fystu_man.netherite_star_tea.line3");
         addDelimiter();
 
         super.appendTooltip(stack, context, tooltip, type);

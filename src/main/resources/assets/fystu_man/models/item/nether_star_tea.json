@@ -2,10 +2,10 @@
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "fystu_man:item/netherite_star_tea",
+		"0": "fystu_man:item/nether_star_tea",
 		"1": "fystu_man:item/teacup",
 		"2": "fystu_man:item/purple",
-		"particle": "#1"
+		"particle": "#0"
 	},
 	"elements": [
 		{

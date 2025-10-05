@@ -1,3 +1,9 @@
+# gallery
+gallery/
+
+# version
+version/
+
 # gradle
 
 .gradle/

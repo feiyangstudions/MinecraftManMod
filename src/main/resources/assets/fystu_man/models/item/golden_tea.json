@@ -1,10 +1,10 @@
 {
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
-	"texture_size": [32, 32],
 	"textures": {
-		"0": "fystu_man:item/tea",
+		"0": "fystu_man:item/golden_tea",
 		"1": "fystu_man:item/teacup",
+		"2": "fystu_man:item/golden",
 		"particle": "#0"
 	},
 	"elements": [
@@ -16,6 +16,20 @@
 			"faces": {
 				"up": {"uv": [7, 7, 0, 0], "texture": "#0"},
 				"down": {"uv": [0, 0, 7, 7], "texture": "#0"}
+			}
+		},
+		{
+			"name": "tea_outline",
+			"from": [13.5, 10.5, 12.5],
+			"to": [3.5, -0.5, 2.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 4.5, 7.5]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0], "rotation": 180, "texture": "#2"},
+				"east": {"uv": [0, 0, 0, 0], "rotation": 180, "texture": "#2"},
+				"south": {"uv": [0, 0, 0, 0], "rotation": 180, "texture": "#2"},
+				"west": {"uv": [0, 0, 0, 0], "rotation": 180, "texture": "#2"},
+				"up": {"uv": [7, 7, 0, 0], "texture": "#2"},
+				"down": {"uv": [0, 7, 7, 0], "texture": "#2"}
 			}
 		},
 		{
@@ -160,17 +174,18 @@
 	},
 	"groups": [
 		0,
+		1,
 		{
 			"name": "teacup",
 			"origin": [8, 1, 8],
 			"color": 0,
-			"children": [1, 2, 3, 4, 5]
+			"children": [2, 3, 4, 5, 6]
 		},
 		{
 			"name": "handle",
 			"origin": [8, 8, 8],
 			"color": 0,
-			"children": [6, 7, 8]
+			"children": [7, 8, 9]
 		}
 	]
 }

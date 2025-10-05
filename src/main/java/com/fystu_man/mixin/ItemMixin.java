@@ -17,7 +17,8 @@ public class ItemMixin {
     @Unique
     private static final Set<Item> GLINT_ITEMS = Set.of(
             ManModItems.AWAKENED_ICE_TEA,
-            ManModItems.NETHERITE_STAR_ICE_TEA
+            ManModItems.NETHER_STAR_ICE_TEA,
+            ManModItems.GOLDEN_ICE_TEA
     );
 
     @Inject(method = "hasGlint", at = @At("HEAD"), cancellable = true)
