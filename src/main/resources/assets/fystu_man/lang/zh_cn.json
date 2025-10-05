@@ -1,16 +1,23 @@
 {
   "item.fystu_man.ice_tea": "冰红茶",
-  "item.fystu_man.24bs": "24号球服",
+  "item.fystu_man.24bs": "§52§64§2号§9球§3服",
   "item.fystu_man.see_you_again": "See You Again",
-  "item.fystu_man.awakened_ice_tea": "§6觉醒 §1冰！§6红！§5茶！",
+  "item.fystu_man.awakened_ice_tea": "§6觉§9醒 §1冰！§6红！§5茶！",
   "item.fystu_man.tea": "红茶",
   "item.fystu_man.teacup": "空茶杯",
   "item.fystu_man.tea_leaves": "茶叶",
-  "item.fystu_man.netherite_star_tea": "§5下界§6之星§3茶",
-  "item.fystu_man.netherite_star_ice_tea": "§3下界§6之星§a冰§6红！§4茶！",
+  "item.fystu_man.nether_star_tea": "§5下§2界§6之§4星§3茶",
+  "item.fystu_man.nether_star_ice_tea": "§3下§2界§9之§1星§a冰§6红！§4茶！",
+  "item.fystu_man.golden_tea": "§6金§5之§4茶",
+  "item.fystu_man.golden_ice_tea": "§6金§4之§5冰§2红§3茶",
   "itemGroup.man": "牢大！物品",
   "block.fystu_man.tea_tree": "茶树",
   "jukebox_song.fystu_man.see_you_again": "See You Again - Wiz Khalifa/Charlie Puth",
+  "effect.fystu_man.golden_rain": "§6金§r之§9雨",
+  "effect.fystu_man.golden_touch": "点石成§6金",
+
+  "tooltip.fystu_man.__ALL__.delimiter": "§9=======================",
+  "tooltip.fystu_man.__ALL__.super_effect": "§1♦ 超强效果",
 
   "tooltip.fystu_man.awakened_ice_tea.line1": "§6§l✦ 觉醒冰红茶 ✦",
   "tooltip.fystu_man.awakened_ice_tea.line2": "§1♦ 超高伤害",
@@ -19,7 +26,6 @@
   "tooltip.fystu_man.24bs.line1": "§6§l✦ 24号球服 ✦",
   "tooltip.fystu_man.24bs.line2": "§1♦ 超强防御",
   "tooltip.fystu_man.24bs.line3": "§1♦ 特殊效果",
-  "tooltip.fystu_man.__ALL__.delimiter": "§9=======================",
 
   "tooltip.fystu_man.netherite_star_tea.line1": "§6§l✦ 下界之星茶 ✦",
   "tooltip.fystu_man.netherite_star_tea.line2": "§1♦ 超多效果",
@@ -27,5 +33,11 @@
 
   "tooltip.fystu_man.netherite_star_ice_tea.line1": "§6§l✦ Netherite Star Ice Tea ✦",
   "tooltip.fystu_man.netherite_star_ice_tea.line2": "§1♦ 比\"下界之星茶\"更多的效果！",
-  "tooltip.fystu_man.netherite_star_ice_tea.line3": "§1♦ 没有更多的饥饿！！！"
+  "tooltip.fystu_man.netherite_star_ice_tea.line3": "§1♦ 没有更多的饥饿！！！",
+
+  "tooltip.fystu_man.golden_tea.line1": "§6§l✦ 金之茶 ✦",
+  "tooltip.fystu_man.golden_tea.line2": "§1♦ 金之雨！",
+
+  "tooltip.fystu_man.golden_ice_tea.line1": "§6§l✦ 金之冰红茶 ✦",
+  "tooltip.fystu_man.golden_ice_tea.line2": "§1♦ 点石成金！"
 }

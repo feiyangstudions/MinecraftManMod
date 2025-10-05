@@ -23,11 +23,11 @@ public class ManModItems {
     ));
 
     // Teacup Item
-    public static final Item TEACUP = register("teacup", new Item(createIS(16, null)));
+    public static final Item TEACUP = register("teacup", new Item(createIS(0, null)));
 
     // Ice Tea Item (Can Drink)
     public static final Item ICE_TEA = register("ice_tea", new DrinkableItem(
-            createIS(1, null)
+            createIS(8, null)
                     .food(ManModFoodComponents.ICE_TEA_B.usingConvertsTo(TEACUP).build())
     ));
 
@@ -48,22 +48,34 @@ public class ManModItems {
                             ManModToolMaterials.ICE_TEA, 0, -1F))
                     .component(DataComponentTypes.UNBREAKABLE, new UnbreakableComponent(true).withShowInTooltip(false))));
     public static final Item TEA = register("tea", new DrinkableItem(
-            createIS(1, null)
+            createIS(16, null)
                     .food(ManModFoodComponents.TEA_B.usingConvertsTo(TEACUP).build())
                     .recipeRemainder(TEACUP)
     ));
 
-    // Netherite Star Tea Item (Can Drink)
-    public static final Item NETHERITE_STAR_TEA = register("netherite_star_tea", new NetheriteStarTeaItem(
-            createIS(1, Rarity.EPIC)
-                    .food(ManModFoodComponents.NETHERITE_STAR_TEA_B.usingConvertsTo(TEACUP).build())
+    // Nether Star Tea Item (Can Drink)
+    public static final Item NETHER_STAR_TEA = register("nether_star_tea", new NetherStarTeaItem(
+            createIS(16, Rarity.EPIC)
+                    .food(ManModFoodComponents.NETHER_STAR_TEA_B.usingConvertsTo(TEACUP).build())
                     .recipeRemainder(TEACUP)
     ));
 
-    // Netherite Star Ice Tea Item (Can Drink)
-    public static final Item NETHERITE_STAR_ICE_TEA = register("netherite_star_ice_tea", new NetheriteStarIceTeaItem(
-            createIS(1, Rarity.EPIC)
-                    .food(ManModFoodComponents.NETHERITE_STAR_ICE_TEA_B.usingConvertsTo(TEACUP).build())
+    // Nether Star Ice Tea Item (Can Drink)
+    public static final Item NETHER_STAR_ICE_TEA = register("nether_star_ice_tea", new NetherStarIceTeaItem(
+            createIS(8, Rarity.EPIC)
+                    .food(ManModFoodComponents.NETHER_STAR_ICE_TEA_B.usingConvertsTo(TEACUP).build())
+    ));
+
+    // Golden Tea Item (Can Drink) (WIP)
+    public static final Item GOLDEN_TEA = register("golden_tea", new GoldenTeaItem(
+            createIS(16, Rarity.EPIC)
+                    .food(ManModFoodComponents.GOLDEN_TEA.usingConvertsTo(TEACUP).build())
+    ));
+
+    // Golden Ice Tea Item (Can Drink) (WIP)
+    public static final Item GOLDEN_ICE_TEA = register("golden_ice_tea", new GoldenIceTeaItem(
+            createIS(8, Rarity.EPIC)
+                    .food(ManModFoodComponents.GOLDEN_ICE_TEA.usingConvertsTo(TEACUP).build())
     ));
 
     // Items Register Methods

@@ -27,11 +27,11 @@
       "item": "fystu_man:water_bucket"
     },
     {
-      "item": "minecraft:netherite_star"
+      "item": "minecraft:nether_star"
     }
   ],
   "result": {
     "count": 1,
-    "id": "fystu_man:netherite_star_tea"
+    "id": "fystu_man:nether_star_tea"
   }
 }

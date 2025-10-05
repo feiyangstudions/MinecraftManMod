@@ -1,18 +1,23 @@
 {
   "item.fystu_man.ice_tea": "Ice Tea",
-  "item.fystu_man.24bs": "No.24 Ball Suit",
+  "item.fystu_man.24bs": "§5No§r.§624 §2Ball §9Suit",
   "item.fystu_man.see_you_again": "See You Again",
   "item.fystu_man.awakened_ice_tea": "§9Awakened §6ICE§r! §5TEA§r!",
   "item.fystu_man.tea": "Black Tea",
   "item.fystu_man.teacup": "Empty Teacup",
   "item.fystu_man.tea_leaves": "Tea Leaves",
-  "item.fystu_man.netherite_star_tea": "§5Netherite §6Star §3Tea",
-  "item.fystu_man.netherite_star_ice_tea": "§3Netherite §aStar §6Ice! §4Tea!",
+  "item.fystu_man.nether_star_tea": "§5Nether §6Star §3Tea",
+  "item.fystu_man.nether_star_ice_tea": "§3Nether §aStar §6Ice! §4Tea!",
+  "item.fystu_man.golden_tea": "§6Golden §5Tea",
+  "item.fystu_man.golden_ice_tea": "§4Golden §5Ice §6Tea",
+  "effect.fystu_man.golden_rain": "The §9Rain§r Of §6Gold",
+  "effect.fystu_man.golden_touch": "§6Golden§r Touch",
   "itemGroup.man": "Man! Items",
   "block.fystu_man.tea_tree": "Tea Tree",
   "jukebox_song.fystu_man.see_you_again": "See You Again - Wiz Khalifa/Charlie Puth",
 
   "tooltip.fystu_man.__ALL__.delimiter": "§9=======================",
+  "tooltip.fystu_man.__ALL__.super_effect": "§1♦ Super Effect",
 
   "tooltip.fystu_man.awakened_ice_tea.line1": "§6§l✦ Awakened Ice Tea ✦",
   "tooltip.fystu_man.awakened_ice_tea.line2": "§1♦ High Damage",
@@ -23,10 +28,16 @@
   "tooltip.fystu_man.24bs.line3": "§1🏀 Special Effect",
 
   "tooltip.fystu_man.netherite_star_tea.line1": "§6§l✦ Netherite Star Tea ✦",
-  "tooltip.fystu_man.netherite_star_tea.line2": "§1 Many Effects",
-  "tooltip.fystu_man.netherite_star_tea.line3": "§1 Make You Full!",
+  "tooltip.fystu_man.netherite_star_tea.line2": "§1♦ Many Effects",
+  "tooltip.fystu_man.netherite_star_tea.line3": "§1♦ Make You Full!",
 
   "tooltip.fystu_man.netherite_star_ice_tea.line1": "§6§l✦ Netherite Star Ice Tea ✦",
   "tooltip.fystu_man.netherite_star_ice_tea.line2": "§1♦ More Effects then \"Netherite Star Tea\"!",
-  "tooltip.fystu_man.netherite_star_ice_tea.line3": "§1♦ No More Hungry!!!"
+  "tooltip.fystu_man.netherite_star_ice_tea.line3": "§1♦ No More Hungry!!!",
+
+  "tooltip.fystu_man.golden_tea.line1": "§6§l✦ Golden Tea ✦",
+  "tooltip.fystu_man.golden_tea.line2": "§1♦ The Rain Of Gold!",
+
+  "tooltip.fystu_man.golden_ice_tea.line1": "§6§l✦ Golden Ice Tea ✦",
+  "tooltip.fystu_man.golden_ice_tea.line2": "§1♦ The Midas Touch Turns Gold!"
 }

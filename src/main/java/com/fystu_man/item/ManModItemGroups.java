@@ -23,20 +23,22 @@ public class ManModItemGroups {
         Registry.register(
                 Registries.ITEM_GROUP,
                 MAN,
-                ItemGroup.create(ItemGroup.Row.TOP, 7)
+                ItemGroup.create(ItemGroup.Row.TOP, -1)
                         .displayName(Text.translatable("itemGroup.man"))
                         .icon(() -> new ItemStack(ManModItems.ICE_TEA))
                         .entries((displayContext, entries) -> {
                             entries.add(ManModItems.TEA_LEAVES);
                             entries.add(ManModItems.TEA);
+                            entries.add(ManModItems.NETHER_STAR_TEA);
+                            entries.add(ManModItems.GOLDEN_TEA);
                             entries.add(ManModItems.TEACUP);
                             entries.add(ManModItems.ICE_TEA);
                             entries.add(ManModItems.AWAKENED_ICE_TEA);
+                            entries.add(ManModItems.NETHER_STAR_ICE_TEA);
+                            entries.add(ManModItems.GOLDEN_ICE_TEA);
                             entries.add(ManModItems._24BS);
                             entries.add(ManModItems.SEE_YOU_AGAIN);
                             entries.add(ManModBlocks.TEA_TREE);
-                            entries.add(ManModItems.NETHERITE_STAR_TEA);
-                            entries.add(ManModItems.NETHERITE_STAR_ICE_TEA);
                         })
                         .build()
         );
